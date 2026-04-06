@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { fetchContent, getAllContentSlugs } from '../../../utils/fetchContent';
-import styles from '../../../styles/ServiceDetail.module.css';
+import { fetchContent, getAllContentSlugs } from '../../utils/fetchContent';
+import styles from '../../styles/ServiceDetail.module.css';
 
 export default function ServiceDetail({ service }) {
   if (!service) {
