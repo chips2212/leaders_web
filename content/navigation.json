@@ -1,0 +1,77 @@
+{
+    "navigation": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Expertise",
+        "href": "/sectors",
+        "dropdown": [
+          {
+            "label": "Humanitarian & Crisis",
+            "href": "/sectors/humanitarian",
+            "coreExpertise": true
+          },
+          {
+            "label": "Tech & AI",
+            "href": "/sectors/tech"
+          },
+          {
+            "label": "Finance & Fintech",
+            "href": "/sectors/finance"
+          },
+          {
+            "label": "Energy & Logistics",
+            "href": "/sectors/energy"
+          },
+          {
+            "label": "Sports & Esports",
+            "href": "/sectors/sports"
+          }
+        ]
+      },
+      {
+        "label": "Services",
+        "href": "/services",
+        "dropdown": [
+          {
+            "label": "All Services",
+            "href": "/services"
+          },
+          {
+            "label": "Executive Coaching",
+            "href": "/services/coaching"
+          },
+          {
+            "label": "Crisis Management",
+            "href": "/services/crisis"
+          },
+          {
+            "label": "Leadership Training",
+            "href": "/services/training"
+          },
+          {
+            "label": "Org Development",
+            "href": "/services/od"
+          },
+          {
+            "label": "Mentoring Programs",
+            "href": "/services/mentoring"
+          }
+        ]
+      },
+      {
+        "label": "The Collective",
+        "href": "/team"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  }

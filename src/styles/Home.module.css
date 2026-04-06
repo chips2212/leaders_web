@@ -1,0 +1,518 @@
+/* Home Page Styles */
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Hero Section */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  min-height: 90vh;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+}
+
+.heroContent {
+  max-width: 600px;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.heroTitleAccent {
+  color: #e94560;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #a0a0a0;
+  margin-bottom: 2.5rem;
+}
+
+.heroCtas {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.heroVisual {
+  position: relative;
+}
+
+.heroImageContainer {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.heroImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.heroImageOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+}
+
+.heroLabelLeft,
+.heroLabelRight {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+.heroLabelLeft {
+  color: #e94560;
+}
+
+.heroLabelRight {
+  color: #4fbdba;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.btnPrimary {
+  background: #e94560;
+  color: white;
+  border-color: #e94560;
+}
+
+.btnPrimary:hover {
+  background: #ff6b6b;
+  border-color: #ff6b6b;
+  transform: translateY(-2px);
+}
+
+.btnSecondary {
+  background: transparent;
+  color: white;
+  border-color: rgba(255,255,255,0.3);
+}
+
+.btnSecondary:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: white;
+}
+
+.btnLarge {
+  padding: 1.25rem 3rem;
+  font-size: 1.125rem;
+}
+
+/* Proof Section */
+.proofSection {
+  padding: 6rem 2rem;
+  background: #0f0f1e;
+  color: white;
+  text-align: center;
+}
+
+.proofContent {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.proofStatement {
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.4;
+  margin-bottom: 3rem;
+  color: #e0e0e0;
+}
+
+.proofStats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.stat {
+  text-align: center;
+}
+
+.statNumber {
+  display: block;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #e94560;
+  line-height: 1;
+}
+
+.statLabel {
+  display: block;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #888;
+  margin-top: 0.5rem;
+}
+
+.statDivider {
+  width: 1px;
+  height: 60px;
+  background: rgba(255,255,255,0.2);
+}
+
+/* Section Titles */
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #1a1a2e;
+}
+
+.sectionSubtitle {
+  text-align: center;
+  color: #666;
+  font-size: 1.125rem;
+  margin-bottom: 3rem;
+}
+
+/* Sectors Section */
+.sectorsSection {
+  padding: 6rem 2rem;
+  background: #f8f9fa;
+}
+
+.sectorsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.sectorCard {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.sectorCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.sectorCardCenter {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sectorCardCenter h3 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.sectorIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.sectorCard h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #1a1a2e;
+}
+
+.sectorBadge {
+  display: inline-block;
+  background: #e94560;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.sectorParallel {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #ccc;
+  margin-top: 1rem;
+}
+
+.sectorHoverContent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1a1a2e;
+  color: white;
+  padding: 1.5rem;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.sectorCard:hover .sectorHoverContent {
+  transform: translateY(0);
+}
+
+.crisisParallel {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.crisisParallel strong {
+  color: #e94560;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+/* Services Section */
+.servicesSection {
+  padding: 6rem 2rem;
+  background: white;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+}
+
+.serviceCard {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 2rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.serviceCard:hover {
+  background: white;
+  border-color: #e94560;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.1);
+}
+
+.serviceIcon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.serviceCard h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #1a1a2e;
+}
+
+.serviceCard p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.servicesLink {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.linkArrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #e94560;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.125rem;
+  transition: gap 0.3s ease;
+}
+
+.linkArrow:hover {
+  gap: 1rem;
+}
+
+/* Insight Section */
+.insightSection {
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.insightCard {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.insightLabel {
+  display: inline-block;
+  background: #e94560;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5rem;
+}
+
+.insightTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #1a1a2e;
+  line-height: 1.3;
+}
+
+.insightExcerpt {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* Footer CTA */
+.footerCta {
+  padding: 6rem 2rem;
+  background: #0f0f1e;
+  color: white;
+  text-align: center;
+}
+
+.footerCtaTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.footerCtaSubtitle {
+  font-size: 1.25rem;
+  color: #888;
+  margin-bottom: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroContent {
+    max-width: 100%;
+  }
+
+  .heroCtas {
+    justify-content: center;
+  }
+
+  .sectorsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sectorCardCenter {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+
+  .proofStats {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .statDivider {
+    width: 60px;
+    height: 1px;
+  }
+}
+
+@media (max-width: 640px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+
+  .sectorsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .servicesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .proofStatement {
+    font-size: 1.5rem;
+  }
+
+  .statNumber {
+    font-size: 2.5rem;
+  }
+
+  .insightCard {
+    padding: 2rem;
+  }
+
+  .insightTitle {
+    font-size: 1.5rem;
+  }
+}

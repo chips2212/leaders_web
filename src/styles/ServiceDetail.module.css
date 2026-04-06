@@ -1,0 +1,183 @@
+/* Service Detail Page Styles */
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.serviceHeader {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  padding: 4rem;
+  border-radius: 16px;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.headerContent {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.serviceIcon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.serviceTitle {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.serviceDescription {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+}
+
+.serviceContent {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.serviceContent h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.serviceContent h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.serviceContent p {
+  margin-bottom: 1.5rem;
+}
+
+.serviceContent ul,
+.serviceContent ol {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+.serviceContent li {
+  margin-bottom: 0.5rem;
+}
+
+.serviceContent strong {
+  color: #1a1a2e;
+  font-weight: 600;
+}
+
+.serviceContent a {
+  color: #e94560;
+  text-decoration: underline;
+}
+
+.serviceContent table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+.serviceContent th,
+.serviceContent td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.serviceContent th {
+  font-weight: 600;
+  background: #f8f9fa;
+}
+
+.serviceFooter {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 2px solid #e0e0e0;
+}
+
+.ctaBox {
+  background: #f8f9fa;
+  padding: 3rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.ctaBox h3 {
+  font-size: 1.75rem;
+  color: #1a1a2e;
+  margin-bottom: 1rem;
+}
+
+.ctaBox p {
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.ctaButton {
+  display: inline-block;
+  background: #e94560;
+  color: white;
+  padding: 1rem 2.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.ctaButton:hover {
+  background: #ff6b6b;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(233, 69, 96, 0.4);
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  color: #666;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.backLink:hover {
+  color: #e94560;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+
+  .serviceHeader {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .serviceTitle {
+    font-size: 2rem;
+  }
+
+  .serviceContent {
+    font-size: 1rem;
+  }
+
+  .ctaBox {
+    padding: 2rem 1.5rem;
+  }
+}
