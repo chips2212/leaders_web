@@ -10,24 +10,24 @@
         "dropdown": [
           {
             "label": "Humanitarian & Crisis",
-            "href": "/sectors/humanitarian",
+            "href": "/sectors/humanitarian-ngo",
             "coreExpertise": true
           },
           {
             "label": "Tech & AI",
-            "href": "/sectors/tech"
+            "href": "/sectors/tech-ai"
           },
           {
             "label": "Finance & Fintech",
-            "href": "/sectors/finance"
+            "href": "/sectors/finance-fintech"
           },
           {
             "label": "Energy & Logistics",
-            "href": "/sectors/energy"
+            "href": "/sectors/energy-logistics"
           },
           {
             "label": "Sports & Esports",
-            "href": "/sectors/sports"
+            "href": "/sectors/sports-esports"
           }
         ]
       },
@@ -41,23 +41,27 @@
           },
           {
             "label": "Executive Coaching",
-            "href": "/services/coaching"
+            "href": "/services/executive-coaching"
           },
           {
             "label": "Crisis Management",
-            "href": "/services/crisis"
+            "href": "/services/crisis-management"
           },
           {
             "label": "Leadership Training",
-            "href": "/services/training"
+            "href": "/services/leadership-training"
           },
           {
             "label": "Org Development",
-            "href": "/services/od"
+            "href": "/services/organizational-development"
           },
           {
             "label": "Mentoring Programs",
-            "href": "/services/mentoring"
+            "href": "/services/mentoring-programs"
+          },
+          {
+            "label": "Specialized Consulting",
+            "href": "/services/specialized-consulting"
           }
         ]
       },

@@ -3,17 +3,17 @@ import styles from './Footer.module.css';
 
 const footerLinks = {
   expertise: [
-    { label: 'Humanitarian & Crisis', href: '/sectors/humanitarian' },
-    { label: 'Tech & AI', href: '/sectors/tech' },
-    { label: 'Finance & Fintech', href: '/sectors/finance' },
-    { label: 'Energy & Logistics', href: '/sectors/energy' },
-    { label: 'Sports & Esports', href: '/sectors/sports' },
+    { label: 'Humanitarian & Crisis', href: '/sectors/humanitarian-ngo' },
+    { label: 'Tech & AI', href: '/sectors/tech-ai' },
+    { label: 'Finance & Fintech', href: '/sectors/finance-fintech' },
+    { label: 'Energy & Logistics', href: '/sectors/energy-logistics' },
+    { label: 'Sports & Esports', href: '/sectors/sports-esports' },
   ],
   services: [
-    { label: 'Executive Coaching', href: '/services/coaching' },
-    { label: 'Crisis Management', href: '/services/crisis' },
-    { label: 'Leadership Training', href: '/services/training' },
-    { label: 'Org Development', href: '/services/od' },
+    { label: 'Executive Coaching', href: '/services/executive-coaching' },
+    { label: 'Crisis Management', href: '/services/crisis-management' },
+    { label: 'Leadership Training', href: '/services/leadership-training' },
+    { label: 'Org Development', href: '/services/organizational-development' },
     { label: 'All Services', href: '/services' },
   ],
   company: [
