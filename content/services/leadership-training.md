@@ -1,7 +1,7 @@
 ---
 title: "Leadership Training"
 description: "Workshops and intensive programs on decision-making under pressure, team cohesion, and adaptive leadership."
-icon: "training"
+icon: "📚"
 color: "educational"
 order: 3
 ---

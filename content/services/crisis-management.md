@@ -1,7 +1,7 @@
 ---
 title: "Crisis Management"
 description: "Preparation, response, and recovery protocols forged in active conflict zones and disaster areas."
-icon: "crisis"
+icon: "🚨"
 color: "alert"
 order: 1
 ---

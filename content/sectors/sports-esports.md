@@ -1,7 +1,7 @@
 ---
 title: "Sports & Esports"
 description: "Performance leadership for high-stakes moments, team dynamics under pressure, and adaptive excellence."
-icon: "sports"
+icon: "🏆"
 color: "victory"
 order: 5
 ---

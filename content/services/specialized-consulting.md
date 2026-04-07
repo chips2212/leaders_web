@@ -1,7 +1,7 @@
 ---
 title: "Specialized Consulting"
 description: "Bespoke solutions for complex leadership challenges that don't fit standard frameworks."
-icon: "consulting"
+icon: "💡"
 color: "bespoke"
 order: 6
 ---

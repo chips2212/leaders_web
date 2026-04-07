@@ -60,6 +60,8 @@
 
 .navItem {
   position: relative;
+  padding-bottom: 1rem;
+  margin-bottom: -1rem;
 }
 
 .navLink {
@@ -106,6 +108,18 @@
   margin-top: 0.5rem;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
   animation: dropdownFade 0.2s ease;
+  z-index: 1001;
+}
+
+/* Bridge the gap between nav item and dropdown */
+.dropdown::before {
+  content: '';
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  right: 0;
+  height: 1rem;
+  background: transparent;
 }
 
 @keyframes dropdownFade {

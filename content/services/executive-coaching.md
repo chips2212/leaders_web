@@ -1,7 +1,7 @@
 ---
 title: "Executive Coaching"
 description: "One-on-one leadership development tailored for volatility, pressure, and high-stakes decision-making."
-icon: "coaching"
+icon: "🎯"
 color: "professional"
 order: 2
 ---

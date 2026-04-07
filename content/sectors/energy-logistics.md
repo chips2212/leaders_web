@@ -1,7 +1,7 @@
 ---
 title: "Energy & Logistics"
 description: "Operational leadership for critical infrastructure under disruption and supply chain volatility."
-icon: "energy"
+icon: "⚡"
 color: "industrial"
 order: 3
 ---

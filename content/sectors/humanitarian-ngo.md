@@ -1,7 +1,7 @@
 ---
 title: "Humanitarian Aid & Crisis Response"
 description: "Our foundation: leadership strategies proven where failure means loss of life."
-icon: "humanitarian"
+icon: "🌍"
 color: "crimson"
 order: 1
 coreExpertise: true

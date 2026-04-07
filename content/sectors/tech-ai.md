@@ -1,7 +1,7 @@
 ---
 title: "Tech & AI"
 description: "Leadership for exponential change, disruptive innovation, and algorithmic volatility."
-icon: "tech"
+icon: "💻"
 color: "blue"
 order: 4
 ---

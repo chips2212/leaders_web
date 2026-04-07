@@ -3,7 +3,24 @@ import Link from 'next/link';
 import { fetchContent, getAllContentSlugs } from '../../utils/fetchContent';
 import styles from '../../styles/ServiceDetail.module.css';
 
-export default function ServiceDetail({ service }) {
+// Helper function to get background image for each service
+function getServiceBackground(slug) {
+  const overlays = 'linear-gradient(rgba(26, 26, 46, 0.6), rgba(26, 26, 46, 0.65))';
+  
+  const backgrounds = {
+    'crisis-management': `/images/services/crisis-management-bg.jpg`,
+    'executive-coaching': `/images/services/executive-coaching-bg.jpg`,
+    'leadership-training': `/images/services/leadership-training-bg.jpg`,
+    'mentoring-programs': `/images/services/mentoring-programs-bg.jpg`,
+    'organizational-development': `/images/services/organizational-development-bg.jpg`,
+    'specialized-consulting': `/images/services/specialized-consulting-bg.jpg`,
+  };
+  
+  const image = backgrounds[slug] || '/images/hero/command-center-split.jpg';
+  return `${overlays}, url('${image}')`;
+}
+
+export default function ServiceDetail({ service, slug }) {
   if (!service) {
     return <div>Service not found</div>;
   }
@@ -18,7 +35,14 @@ export default function ServiceDetail({ service }) {
       </Head>
 
       <article className={styles.container}>
-        <header className={styles.serviceHeader}>
+        <header 
+          className={styles.serviceHeader}
+          style={{
+            backgroundImage: getServiceBackground(slug),
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+          }}
+        >
           <div className={styles.headerContent}>
             <span className={styles.serviceIcon}>{frontmatter.icon || '⚡'}</span>
             <h1 className={styles.serviceTitle}>{frontmatter.title}</h1>
@@ -64,6 +88,7 @@ export async function getStaticProps({ params }) {
   return {
     props: {
       service,
+      slug: params.slug,
     },
   };
 }

@@ -1,7 +1,7 @@
 ---
 title: "Finance & Fintech"
 description: "Leadership strategies forged in crisis, applied to financial volatility and market disruption."
-icon: "finance"
+icon: "💰"
 color: "gold"
 order: 2
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Mentoring Programs"
 description: "Knowledge transfer from field-tested leaders to the next generation of crisis-capable executives."
-icon: "mentoring"
+icon: "🤝"
 color: "mentorship"
 order: 4
 ---

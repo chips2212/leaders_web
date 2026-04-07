@@ -1,7 +1,7 @@
 ---
 title: "Organizational Development"
 description: "Building resilient, adaptive organizations that thrive in volatility through systemic transformation."
-icon: "od"
+icon: "🏢"
 color: "organizational"
 order: 5
 ---
