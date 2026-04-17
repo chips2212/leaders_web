@@ -28,17 +28,16 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact Us | Crisis-Forged Leadership</title>
-        <meta name="description" content="Get in touch with Crisis-Forged Leadership. Let's discuss how crisis-tested strategies can transform your organization's resilience." />
+         <title>Contact Us | Leaders for uncertainty</title>
+         <meta name="description" content="Get in touch with Leaders for uncertainty. Let's discuss how humanitarian-grade strategies can transform your organization's resilience by building on people and embracing uncertainty." />
       </Head>
 
       <div className={styles.container} style={{ padding: '4rem 0' }}>
         <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-          <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Get in Touch</h1>
-          <p style={{ fontSize: '1.25rem', color: 'var(--text-secondary)', marginBottom: '3rem' }}>
-            Ready to build antifragile leadership? Let's discuss how crisis-tested 
-            strategies can transform your organization's resilience.
-          </p>
+           <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Build Human-Centered Resilience</h1>
+           <p style={{ fontSize: '1.25rem', color: 'var(--text-secondary)', marginBottom: '3rem' }}>
+             Ready to build human-centered resilience? Let's discuss how humanitarian-grade strategies can transform your organization by building on people and embracing uncertainty.
+           </p>
 
           {submitted ? (
             <div style={{ 

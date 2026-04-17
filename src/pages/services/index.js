@@ -7,17 +7,17 @@ export default function ServicesIndex({ services }) {
   return (
     <>
       <Head>
-        <title>Our Services | Crisis-Forged Leadership</title>
-        <meta name="description" content="Six core services refined in the world's most demanding environments: Crisis Management, Executive Coaching, Leadership Training, Mentoring, Organizational Development, and Specialized Consulting." />
+         <title>Our Services | Leaders for uncertainty</title>
+         <meta name="description" content="Six core services refined in the world's most demanding environments to build leaders who embrace uncertainty and are built on people: Crisis Management, Executive Coaching, Leadership Training, Mentoring, Organizational Development, and Specialized Consulting." />
       </Head>
 
       <div className={styles.container}>
         <header className={styles.pageHeader}>
-          <h1 className={styles.pageTitle}>Our Battle-Tested Toolkit</h1>
-          <p className={styles.pageSubtitle}>
-            Six core services, each refined in the world's most demanding environments.
-            Every method has been proven where failure has real consequences.
-          </p>
+           <h1 className={styles.pageTitle}>Our Humanitarian-Grade Toolkit</h1>
+           <p className={styles.pageSubtitle}>
+             Six core services, each refined in the world's most demanding environments to build leaders who embrace uncertainty and are built on people.
+             Every method has been proven where failure has real consequences.
+           </p>
         </header>
 
         <div className={styles.servicesGrid}>

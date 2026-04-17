@@ -5,8 +5,8 @@ export default function Privacy() {
   return (
     <>
       <Head>
-        <title>Privacy Policy | Crisis-Forged Leadership</title>
-        <meta name="description" content="Privacy Policy for Crisis-Forged Leadership. We are committed to protecting your data and maintaining confidentiality." />
+         <title>Privacy Policy | Humanitarian Crisis Forged</title>
+         <meta name="description" content="Privacy Policy for Humanitarian Crisis Forged. We are committed to protecting your data and maintaining confidentiality." />
       </Head>
 
       <div className={styles.container} style={{ padding: '4rem 0', maxWidth: '800px', margin: '0 auto' }}>
@@ -19,7 +19,7 @@ export default function Privacy() {
         <section style={{ marginBottom: '2rem' }}>
           <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Our Commitment to Privacy</h2>
           <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-            At Crisis-Forged Leadership, confidentiality isn't just a policy—it's a core value. 
+             At Humanitarian Crisis Forged, confidentiality isn't just a policy—it's a core value. 
             We understand that the leaders we work with often handle sensitive information, 
             and we extend the same level of discretion to your personal data.
           </p>

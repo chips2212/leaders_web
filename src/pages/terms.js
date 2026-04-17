@@ -5,8 +5,8 @@ export default function Terms() {
   return (
     <>
       <Head>
-        <title>Terms of Service | Crisis-Forged Leadership</title>
-        <meta name="description" content="Terms of Service for Crisis-Forged Leadership. Please read these terms carefully before engaging our services." />
+         <title>Terms of Service | Humanitarian Crisis Forged</title>
+         <meta name="description" content="Terms of Service for Humanitarian Crisis Forged. Please read these terms carefully before engaging our services." />
       </Head>
 
       <div className={styles.container} style={{ padding: '4rem 0', maxWidth: '800px', margin: '0 auto' }}>
@@ -28,7 +28,7 @@ export default function Terms() {
         <section style={{ marginBottom: '2rem' }}>
           <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>2. Our Services</h2>
           <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-            Crisis-Forged Leadership provides leadership development services including:
+             Humanitarian Crisis Forged provides leadership development services including:
           </p>
           <ul style={{ lineHeight: '1.8', marginLeft: '1.5rem', marginBottom: '1rem' }}>
             <li>Executive coaching</li>
@@ -62,7 +62,7 @@ export default function Terms() {
           <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>4. Intellectual Property</h2>
           <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
             All content on this website, including text, graphics, logos, and materials, 
-            is the property of Crisis-Forged Leadership and is protected by intellectual 
+             is the property of Humanitarian Crisis Forged and is protected by intellectual 
             property laws. Materials provided during coaching or training engagements are 
             for the client's internal use only and may not be reproduced or distributed 
             without written permission.

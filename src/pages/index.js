@@ -6,21 +6,21 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Crisis-Forged Leadership | Leadership Forged in Crisis. Applied Everywhere.</title>
-        <meta name="description" content="We bring field-tested strategies from humanitarian war zones to organizations navigating volatility in Tech, Finance, Energy, and Sports." />
+         <title>Leaders for uncertainty | Forged in Humanitarian Crises. Built for Human & Organizational Resilience.</title>
+         <meta name="description" content="We bring field-tested strategies from humanitarian war zones to organizations navigating volatility in Tech, Finance, Energy, and Sports to build resilient, ethical, adaptable leaders who embrace uncertainty and are built on people." />
       </Head>
 
       {/* HERO SECTION */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>
           <h1 className={styles.heroTitle}>
-            Leadership Forged in Crisis.<br />
-            <span className={styles.heroTitleAccent}>Applied Everywhere.</span>
+             Forged in Humanitarian Crises.<br />
+              <span className={styles.heroTitleAccent}>Built for Human & Organizational Resilience.</span>
           </h1>
-          <p className={styles.heroSubtitle}>
-            We bring field-tested strategies from humanitarian war zones to organizations 
-            navigating volatility in Tech, Finance, Energy, and Sports.
-          </p>
+           <p className={styles.heroSubtitle}>
+             We bring field-tested strategies from humanitarian war zones to organizations 
+             navigating volatility in Tech, Finance, Energy, and Sports to build resilient, ethical, adaptable leaders.
+           </p>
           <div className={styles.heroCtas}>
             <Link href="/about" className={`${styles.btn} ${styles.btnPrimary}`}>
               Explore Our Approach
@@ -32,15 +32,15 @@ export default function Home() {
         </div>
         <div className={styles.heroVisual}>
           <div className={styles.heroImageContainer}>
-            <img 
-              src="/images/hero/command-center-split.jpg" 
-              alt="Split screen showing humanitarian command center and corporate war room"
-              className={styles.heroImage}
-            />
-            <div className={styles.heroImageOverlay}>
-              <span className={styles.heroLabelLeft}>Humanitarian Crisis Response</span>
-              <span className={styles.heroLabelRight}>Corporate Volatility</span>
-            </div>
+             <img
+               src="/images/hero/humanitarian-crisis.jpg"
+               alt="Humanitarian aid workers responding to crisis - representing the field-tested experience behind our leadership methods"
+               className={styles.heroImage}
+             />
+             <div className={styles.heroImageOverlay}>
+               <span className={styles.heroLabelLeft}>Field-Tested in Crisis Zones</span>
+               <span className={styles.heroLabelRight}>Applied to Your Challenges</span>
+             </div>
           </div>
         </div>
       </section>
@@ -50,8 +50,8 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.proofContent}>
             <h2 className={styles.proofStatement}>
-              "If our methods work where stakes are life and death, 
-              they work for your market volatility."
+             "If our methods work where stakes are life and death, 
+               they work for your market volatility because true resilience is built on people and embraces the unknown."
             </h2>
             <div className={styles.proofStats}>
               <div className={styles.stat}>
@@ -76,8 +76,8 @@ export default function Home() {
       {/* SECTOR SNAPSHOT - HUB AND SPOKE */}
       <section className={styles.sectorsSection}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Where We Apply Crisis-Tested Leadership</h2>
-          <p className={styles.sectionSubtitle}>Hover to see the parallel between humanitarian crises and sector challenges</p>
+           <h2 className={styles.sectionTitle}>Where We Apply Humanitarian-Grade Leadership</h2>
+           <p className={styles.sectionSubtitle}>Hover to see the parallel between humanitarian crises and sector challenges - because true resilience is built on people and embraces the unknown.</p>
           
           <div className={styles.sectorsGrid}>
             {/* Center - Core Expertise */}
@@ -152,10 +152,10 @@ export default function Home() {
       {/* SERVICES TEASER */}
       <section className={styles.servicesSection}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Our Battle-Tested Toolkit</h2>
-          <p className={styles.sectionSubtitle}>
-            Six core services, each refined in the world's most demanding environments
-          </p>
+           <h2 className={styles.sectionTitle}>Our Humanitarian-Grade Toolkit</h2>
+           <p className={styles.sectionSubtitle}>
+             Six core services, each refined in the world's most demanding environments to build leaders who embrace uncertainty and are built on people
+           </p>
 
           <div className={styles.servicesGrid}>
             <Link href="/services/coaching" className={styles.serviceCard}>
@@ -208,9 +208,9 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.insightCard}>
             <div className={styles.insightLabel}>Featured Insight</div>
-            <h2 className={styles.insightTitle}>
-              What Esports Can Learn from Humanitarian Convoy Leaders
-            </h2>
+             <h2 className={styles.insightTitle}>
+               What Esports Can Learn from Humanitarian Convoy Leaders: Building Resilience Through People and Adaptability
+             </h2>
             <p className={styles.insightExcerpt}>
               The parallels between leading a convoy through contested territory and calling shots 
               in a championship match are striking. Both require split-second decisions with incomplete 
@@ -227,12 +227,12 @@ export default function Home() {
       {/* FOOTER CTA */}
       <section className={styles.footerCta}>
         <div className={styles.container}>
-          <h2 className={styles.footerCtaTitle}>
-            Ready to Build Antifragile Leadership?
-          </h2>
-          <p className={styles.footerCtaSubtitle}>
-            Let's discuss how crisis-tested strategies can transform your organization's resilience.
-          </p>
+           <h2 className={styles.footerCtaTitle}>
+             Ready to Build Human-Centered Resilience?
+           </h2>
+           <p className={styles.footerCtaSubtitle}>
+             Let's discuss how humanitarian-grade strategies can transform your organization's resilience by building on people and embracing uncertainty.
+           </p>
           <Link href="/contact" className={`${styles.btn} ${styles.btnPrimary} ${styles.btnLarge}`}>
             Let's Talk
           </Link>

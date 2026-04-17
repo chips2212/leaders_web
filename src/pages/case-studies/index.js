@@ -7,17 +7,17 @@ export default function CaseStudiesIndex({ caseStudies }) {
   return (
     <>
       <Head>
-        <title>Case Studies | Crisis-Forged Leadership</title>
-        <meta name="description" content="Real-world case studies comparing NGO crisis response to corporate leadership challenges. See how field-tested strategies transfer across sectors." />
+         <title>Case Studies | Leaders for uncertainty</title>
+         <meta name="description" content="Real-world case studies comparing NGO crisis response to corporate leadership challenges, showing how humanitarian-grade strategies build leaders who embrace uncertainty and are built on people across sectors." />
       </Head>
 
       <div className={styles.container}>
         <header className={styles.pageHeader}>
-          <h1 className={styles.pageTitle}>Case Studies</h1>
-          <p className={styles.pageSubtitle}>
-            Paired comparisons showing how humanitarian crisis strategies directly apply 
-            to corporate, tech, finance, and sports leadership challenges.
-          </p>
+           <h1 className={styles.pageTitle}>Case Studies: Humanitarian-Grade Leadership in Action</h1>
+           <p className={styles.pageSubtitle}>
+             Paired comparisons showing how humanitarian crisis strategies directly apply 
+             to corporate, tech, finance, and sports leadership challenges to build leaders who embrace uncertainty and are built on people.
+           </p>
         </header>
 
         <div className={styles.servicesGrid}>

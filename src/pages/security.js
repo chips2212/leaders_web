@@ -5,7 +5,7 @@ export default function Security() {
   return (
     <>
       <Head>
-        <title>Security | Crisis-Forged Leadership</title>
+         <title>Security | Humanitarian Crisis Forged</title>
         <meta name="description" content="Security practices at Crisis-Forged Leadership. Learn how we protect client data and maintain operational security." />
       </Head>
 

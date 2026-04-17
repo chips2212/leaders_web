@@ -16,7 +16,7 @@ function getServiceBackground(slug) {
     'specialized-consulting': `/images/services/specialized-consulting-bg.jpg`,
   };
   
-  const image = backgrounds[slug] || '/images/hero/command-center-split.jpg';
+  const image = backgrounds[slug] || '/images/hero/humanitarian-crisis.jpg';
   return `${overlays}, url('${image}')`;
 }
 

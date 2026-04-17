@@ -7,17 +7,17 @@ export default function SectorsIndex({ sectors }) {
   return (
     <>
       <Head>
-        <title>Our Expertise | Crisis-Forged Leadership</title>
-        <meta name="description" content="Leadership strategies forged in humanitarian crises, applied to organizations navigating volatility in Tech, Finance, Energy, Sports, and Humanitarian sectors." />
+         <title>Our Expertise | Leaders for uncertainty</title>
+         <meta name="description" content="Leadership strategies forged in humanitarian crises, applied to organizations navigating volatility in Tech, Finance, Energy, Sports, and Humanitarian sectors to build leaders who embrace uncertainty and are built on people." />
       </Head>
 
       <div className={styles.container}>
         <header className={styles.pageHeader}>
-          <h1 className={styles.pageTitle}>Where We Apply Crisis-Tested Leadership</h1>
-          <p className={styles.pageSubtitle}>
-            Our methods are proven in war zones and disaster areas—making them uniquely robust 
-            for corporate, tech, finance, and sports sectors facing volatility.
-          </p>
+           <h1 className={styles.pageTitle}>Where We Apply Humanitarian-Grade Leadership</h1>
+           <p className={styles.pageSubtitle}>
+             Our methods are proven in war zones and disaster areas—making them uniquely robust 
+             for corporate, tech, finance, and sports sectors facing volatility to build leaders who embrace uncertainty and are built on people.
+           </p>
         </header>
 
         <div className={styles.sectorsGrid}>

@@ -42,8 +42,8 @@ export default function Footer() {
             <Link href="/" className={styles.footerLogo}>
               <span className={styles.logoIcon}>⚡</span>
               <span className={styles.logoText}>
-                Crisis-Forged
-                <span className={styles.logoAccent}>Leadership</span>
+               Humanitarian Crisis
+               <span className={styles.logoAccent}>Forged</span>
               </span>
             </Link>
             <p className={styles.tagline}>
@@ -186,7 +186,7 @@ export default function Footer() {
             <Link href="/security" className={styles.legalLink}>Security</Link>
           </div>
           <p className={styles.copyright}>
-            © {new Date().getFullYear()} Crisis-Forged Leadership. All rights reserved.
+             © {new Date().getFullYear()} Humanitarian Crisis Forged. All rights reserved.
           </p>
         </div>
       </div>

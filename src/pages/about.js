@@ -6,16 +6,16 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About Us | Crisis-Forged Leadership</title>
-        <meta name="description" content="Learn about Crisis-Forged Leadership - a collective of coaches, trainers, and consultants specializing in leadership development for VUCA contexts." />
+         <title>About Us | Leaders for uncertainty</title>
+         <meta name="description" content="Learn about Leaders for uncertainty - a collective of coaches, trainers, and consultants specializing in leadership development for VUCA contexts." />
       </Head>
 
       <div className={styles.container}>
         <section className={styles.hero} style={{ minHeight: '50vh' }}>
           <div className={styles.heroContent}>
             <h1 className={styles.heroTitle}>
-              Leadership Forged in Crisis.<br />
-              <span className={styles.heroTitleAccent}>Applied Everywhere.</span>
+               Forged in Humanitarian Crises.<br />
+               <span className={styles.heroTitleAccent}>Built for Human & Organizational Resilience.</span>
             </h1>
             <p className={styles.heroSubtitle}>
               We are a collective of coaches, trainers, and consultants who have led 
@@ -28,8 +28,8 @@ export default function About() {
           <div className={styles.container}>
             <div className={styles.proofContent}>
               <h2 className={styles.proofStatement}>
-                "Our methods weren't developed in classrooms. They were tested where 
-                failure means loss of life."
+               "Our methods weren't developed in classrooms. They were tested where 
+                 failure means loss of life because true resilience is built on people and embraces the unknown."
               </h2>
               <div className={styles.proofStats}>
                 <div className={styles.stat}>
@@ -54,7 +54,7 @@ export default function About() {
         <section style={{ padding: '4rem 0', maxWidth: '800px', margin: '0 auto' }}>
           <h2>Our Story</h2>
           <p style={{ marginBottom: '1.5rem', lineHeight: '1.8' }}>
-            Crisis-Forged Leadership began with a simple observation: the leadership skills 
+             Leaders for uncertainty began with a simple observation: the leadership skills 
             required to evacuate a medical team under artillery fire are the same skills 
             needed to navigate a corporation through market volatility.
           </p>
@@ -72,10 +72,10 @@ export default function About() {
 
           <h3 style={{ marginTop: '3rem' }}>Our Values</h3>
           <ul style={{ lineHeight: '2', marginBottom: '2rem' }}>
-            <li><strong>Field-Tested:</strong> Every method proven in real crisis conditions</li>
-            <li><strong>Ethical Integrity:</strong> Unwavering commitment to doing what's right</li>
-            <li><strong>Radical Adaptability:</strong> Thriving in uncertainty, not just surviving</li>
-            <li><strong>Confidentiality:</strong> Absolute discretion in all engagements</li>
+           <li><strong>Human-Centered:</strong> Building resilience through trust, shared mental models, and shared purpose</li>
+           <li><strong>Adaptive:</strong> Embracing uncertainty through satisficing, iterative action, and decentralized adaptation</li>
+           <li><strong>Ethical Integrity:</strong> Unwavering commitment to doing what's right in moral gray zones</li>
+           <li><strong>Confidentiality:</strong> Absolute discretion in all engagements</li>
           </ul>
 
           <div style={{ marginTop: '3rem', textAlign: 'center' }}>

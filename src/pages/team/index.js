@@ -7,17 +7,17 @@ export default function TeamIndex({ teamMembers }) {
   return (
     <>
       <Head>
-        <title>The Collective | Crisis-Forged Leadership</title>
-        <meta name="description" content="Meet our collective of coaches, trainers, and consultants with decades of experience in humanitarian crises and corporate leadership." />
+         <title>The Collective | Leaders for uncertainty</title>
+         <meta name="description" content="Meet our collective of coaches, trainers, and consultants with decades of experience in humanitarian crises and corporate leadership, building resilience through people and embracing uncertainty." />
       </Head>
 
       <div className={styles.container}>
         <header className={styles.pageHeader}>
-          <h1 className={styles.pageTitle}>The Collective</h1>
-          <p className={styles.pageSubtitle}>
-            Coaches, trainers, and consultants who have led through the most demanding 
-            environments on Earth. Our experience spans active conflict zones to corporate boardrooms.
-          </p>
+           <h1 className={styles.pageTitle}>Leaders for Uncertainty Collective</h1>
+           <p className={styles.pageSubtitle}>
+             Coaches, trainers, and consultants who have led through the most demanding 
+             environments on Earth, building resilience through people and embracing uncertainty.
+           </p>
         </header>
 
         <div className={styles.servicesGrid}>

@@ -7,17 +7,17 @@ export default function InsightsIndex({ insights }) {
   return (
     <>
       <Head>
-        <title>Insights | Crisis-Forged Leadership</title>
-        <meta name="description" content="Articles and insights connecting crisis leadership lessons from humanitarian zones to corporate, tech, finance, and sports sectors." />
+         <title>Insights | Leaders for uncertainty</title>
+         <meta name="description" content="Articles and insights connecting crisis leadership lessons from humanitarian zones to corporate, tech, finance, and sports sectors to build leaders who embrace uncertainty and are built on people." />
       </Head>
 
       <div className={styles.container}>
         <header className={styles.pageHeader}>
-          <h1 className={styles.pageTitle}>Insights</h1>
-          <p className={styles.pageSubtitle}>
-            Lessons from conflict zones and disaster areas applied to the challenges 
-            facing modern organizations.
-          </p>
+           <h1 className={styles.pageTitle}>Insights: Building Resilience Through People and Adaptability</h1>
+           <p className={styles.pageSubtitle}>
+             Lessons from conflict zones and disaster areas applied to the challenges 
+             facing modern organizations to build leaders who embrace uncertainty and are built on people.
+           </p>
         </header>
 
         <div className={styles.servicesGrid}>
