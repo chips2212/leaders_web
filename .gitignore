@@ -1,7 +1,7 @@
 # Dependencies
 node_modules/
-package-lock.json
-yarn.lock
+# package-lock.json is needed for CI/CD reproducibility
+# yarn.lock
 pnpm-lock.yaml
 
 # Next.js build output
